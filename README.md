@@ -61,9 +61,9 @@ Send a POST request with JSON data to the /predict route to recieve back a salar
     
 ## To Do List
 ---
-[ ] Add error handling :pencil2:  
-[ ] Add application logging :loudspeaker:  
-[ ] Add /api/v1 url path  
+[ ] :pencil2:  Add error handling  
+[ ] :pencil2:  Add application logging    
+[ ] :pencil2:  Add /api/v1 url path  
 
 
 
