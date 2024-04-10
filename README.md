@@ -8,9 +8,7 @@ The API is not a complete implementation. It does not account for error handling
 
 The idea for this project came from [Predicting Year of Marriage - End to End Machine Learning Deployment with FLASK and AWS -PART 1](https://www.youtube.com/watch?v=sm5xeKal72I). I adapted to a data science salary prediction model and Microsoft Azure for purposes of teaching.
 
-## To Run This Application
-
----
+## To Run This Application  
 
 1. Clone this repository to local computer
 
@@ -36,8 +34,6 @@ The idea for this project came from [Predicting Year of Marriage - End to End Ma
 
 ## API endpoints
 
----
-
 **/**  
 Send a GET request to the root route to learn about the api
 
@@ -60,7 +56,7 @@ Send a POST request with JSON data to the /predict route to recieve back a salar
   
     
 ## To Do List
----
+
 [ ] :pencil2:  Add error handling  
 [ ] :pencil2:  Add application logging    
 [ ] :pencil2:  Add /api/v1 url path  
@@ -69,8 +65,6 @@ Send a POST request with JSON data to the /predict route to recieve back a salar
 
   
 ## Categorical variable mappings
-
----
 
 **_age mapping_**  
 {0: '18-21', 1: '22-24', 2: '25-29', 3: '30-34', 4: '35-39', 5: '40-44', 6: '45-49', 7: '50-54', 8: '55-59', 9: '60-69', 10: '70+'}
@@ -93,9 +87,7 @@ Send a POST request with JSON data to the /predict route to recieve back a salar
 **_company_size mapping_**  
 {0: '0-49 employees', 1: '10,000 or more employees', 2: '1000-9,999 employees', 3: '250-999 employees', 4: '50-249 employees'}
 
-## Sample data
-
----
+## Sample data  
 
 If using mc_salary_predict_model.ml, with the variables 7, 0, 55, 3, 4, 13, and 2 should return a predicted salary of 95679.58.
 
